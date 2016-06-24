@@ -1,0 +1,294 @@
+/***************************/
+/* UNIVERSAL SETTINGS      */
+/***************************/
+
+body {
+  font-family:"Helvetica",sans-serif;
+  margin: 0%;
+  height: 100%;
+  width: auto;
+  min-width: 700px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, .99);
+  color: white;
+}
+
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  color: red;
+}
+
+.bigger {
+  font-weight: bold;
+}
+
+.warning {
+  background-color: #FF7878;
+  margin: 0% auto;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding: 2px 0px;
+}
+
+.warning span {
+  font-size: 80%;
+}
+.warning span:after {
+  content: " (click to hide)";
+}
+
+.warning:focus {
+  display: none;
+}
+
+.warning {
+  z-index: 0;
+}
+
+.warning span {
+  z-index: 1;
+}
+
+/* LOGO & TAGLINE */
+
+#logotype {
+  margin: 0%;
+
+}
+h1#logotype {
+  font-size: 150%;
+  font-weight:lighter;
+  padding: 0%;
+  margin: 0%;
+  letter-spacing: 5px;
+}
+
+#logotype a {
+  color: white;
+  text-decoration: none;
+}
+
+#logotype a:hover::after {
+  content: "⬆ top";
+  font-size: 50%;
+  letter-spacing: 0px;
+  color: rgb(100,100,100);
+}
+
+#tagline  {
+  text-transform: lowercase;
+  margin: 0%;
+  padding: 0%;
+  font-weight: lighter;
+}
+
+#brand {
+  float: left;
+  width: 40%;
+}
+
+
+
+/* NAV */
+header {
+  list-style-type: none;
+  width: 94%;
+  padding: 2% 3%;
+  margin: 0%;
+  line-height: 2em;
+  height: 15%;
+  vertical-align: middle;
+  display: block;
+}
+
+header li {
+  display: inline;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+nav {
+  float: right;
+  min-width: 60%;
+  text-align: right;
+}
+nav li {
+  margin-left: 10%;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+nav li a:hover {
+  border-bottom: 5px white solid;
+}
+
+/* CONTACT */
+#contact {
+  text-align: center;
+  margin: 10% auto;
+  height:70%;
+
+}
+
+#contact ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+
+#contact li {
+  display: inline;
+}
+
+#links a {
+  font-size: 240%;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 2em;
+  width: 2em;
+  margin: 1%;
+}
+
+#twitter:hover {
+  background-color: #55acee;
+  color: white;
+}
+
+#mail:hover {
+  background-color: #bb0000;
+  color: white;
+}
+
+#linkedin:hover {
+  background-color: #0077b5;
+  color: white;
+}
+
+#github:hover {
+  background-color: #6E5494;
+  color: white;
+}
+
+#ok {
+  width: 250px;
+  margin: 5% auto;
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 75%;
+}
+/* SECTIONS */
+#content {
+  position: fixed;
+  top: 10%;
+  height: 90%;
+  overflow: auto;
+  width: 100%;
+}
+section h2 {
+  display: block;
+  font-size: 220%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 0% auto;
+  color: black;
+  background-color: white;
+  vertical-align: bottom;
+  width: 5em;
+  line-height: 2em;
+}
+
+section h3 {
+  text-transform: uppercase;
+  color: white;
+}
+
+section h4 {
+  color: white;
+  text-align: center;
+}
+section ul {
+  list-style-type: none;
+  display: block;
+  padding: 0px;
+}
+section li {
+  padding: 20px 0px 20px 0px;
+  vertical-align: middle;
+  border-width: 1px 0px 0px 0px;
+  border-color: #767676;
+  border-style: solid;
+  letter-spacing: 2px;
+  display: block;
+  font-size: 100%;
+}
+
+section li::before {
+  content: "//";
+  padding-right: 19px;
+  color: white;
+}
+
+section li:last-child {
+  border-bottom: 1px solid #767676;
+}
+
+section li span {
+  float: right;
+}
+
+section li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+code {
+  font-style: normal;
+}
+
+section {
+  color: gray;
+}
+.section-content {
+  margin: 5% auto;
+  padding: 3%;
+  width: 50%;
+}
+
+.subsection {
+  text-align: left;
+}
+
+#languages li span {
+  font-style: italic;
+}
+
